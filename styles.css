@@ -26,6 +26,10 @@ button {
     padding: 0 30px;
 }
 
+/* 
+ * Navbar: Header
+ */
+
 header#main-header {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 
@@ -130,6 +134,10 @@ header#main-header div.side button:hover {
     color: #3BB9E3;
 }
 
+/* 
+ * Navbar: Banner
+ */
+
 .banner {
     height: 380px;
     width: 100%;
@@ -143,6 +151,10 @@ header#main-header div.side button:hover {
     color: #FFFFFF;
 }
 
+/* 
+ * Navbar: Banner
+ */
+
 .bar {
     height: 59px;
 
@@ -150,6 +162,10 @@ header#main-header div.side button:hover {
 
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
+
+/* 
+ * Navbar: Top Bar
+ */
 
 .bar .content {
     display: flex;
@@ -247,10 +263,17 @@ header#main-header div.side button:hover {
     color: #FFFFFF;
 }
 
+/* 
+ * Main Content 
+ */
 
 .wrapper-content {
     display: flex;
 }
+
+/* 
+ * Sidebar: Profile 
+ */
 
 .wrapper-content aside.profile {
     width: 260px;
@@ -373,9 +396,17 @@ header#main-header div.side button:hover {
     border-radius: 8px;
 }
 
+/* 
+ * Main Content: Timeline 
+ */
+
 .wrapper-content .timeline {
     flex: 1;
 }
+
+/* 
+ * Sidebar: Widgets 
+ */
 
 .wrapper-content aside.widgets {
     width: 290px;
